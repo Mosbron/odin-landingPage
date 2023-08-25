@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     list-style: none;
-    
+    font-family: sans-serif;
 }
 
 header {
@@ -16,7 +16,6 @@ header {
 }
 
 li, .h2up {
-    font-family: sans-serif;
     font-weight: 500;
     font-size: 12px;
     text-decoration: none;
@@ -51,11 +50,10 @@ li, .h2up {
     color: #0088a9;
 }
 
-/* skille */
+/* skille elefant bilde*/
 
 .awesome {
     display: flex;
-    font-family: sans-serif;
     font-weight: 600;
     background-color: #1F2937;
     color: white;
@@ -85,7 +83,7 @@ li, .h2up {
 .awesome button {
     color: white;
     background-color: rgb(25, 86, 160);
-    border-radius: 10%;
+    border-radius: 5px;
     padding: 2px 16px;
 }
 
@@ -102,17 +100,23 @@ li, .h2up {
 .awesome img {
     max-width: 450px;
     float: inline-end;   
-    border: 3px solid white;
+    border: 3px solid lightblue;
     border-radius: 10px;
     margin-left: 40px;
 }
 
-/* skille */
+/* skille bokser */
+
+.boxes h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
 
 .fourBox {
     display: flex;
     justify-content: center;
-    font-family: sans-serif;
     flex-flow: row wrap;
 
     padding: 0px 24px 96px 24px;
@@ -120,20 +124,116 @@ li, .h2up {
 
 .card {
     display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 300px;
-  gap: 8px;
-  padding: 24px;  
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    gap: 8px;
+    padding: 24px;  
 }
 
 .card_icon {
-    
+    width: 200px;
+    height: 200px;
+    border: 3px solid lightblue;
+    border-radius: 32px;
+    object-fit: fill;
+}
+
+.card_text {
+    text-align: center;
+    flex-wrap: wrap;
+    max-width: 200px;
+    font-size: 14px;
+    font-weight: bold;
 }
 
 
+/* Skille Tekst Thor */
 
+.tekst {
+   background-color: rgb(191, 213, 220);
+   padding: 110px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
 
+   
+}
+
+.textthor, .textforf {
+    max-width: 800px;
+}
+
+.textthor {
+    font-size: 25px;
+    padding: 10px;
+    font-weight: lighter;
+}
+
+.textforf {
+   font-weight: bolder;
+   align-self: flex-end;
+   padding-right: 300px;
+   padding-top: 10px;
+}
+
+/* Skille blåBoks + knapp */
+
+.siste {
+    padding: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.siste_cont {
+    display: flex;
+    background-color: #7896de;
+    color: white;
+    width: 1000px;
+    height: 150px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.siste_cont h3 {
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+.siste_cont p {
+    font-weight: lighter;
+}
+
+.knappNed button {
+    padding: 8px 29px;
+    border-radius: 5px;
+    border: 2px solid white;
+    color: white;
+    background-color: #7896de;
+}
+
+.knappNed button:hover {
+    background-color: #94c7b5;
+}
+
+/* Skille footer */
+
+.footer {
+    display: flex;
+    padding: 40px;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p {
+    color: white;
+    font-weight: lighter;
+}
 
 
 
